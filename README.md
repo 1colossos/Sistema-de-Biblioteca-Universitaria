@@ -61,3 +61,5 @@ python main.py
 * **Quadro no Trello:** [Acessar Board no Trello](https://trello.com/b/sCRijTjr/sistema-de-biblioteca-universitaria)
 
 https://trello.com/b/sCRijTjr/sistema-de-biblioteca-universitaria
+
+https://trello.com/b/sCRijTjr/sistema-de-biblioteca-universitaria
