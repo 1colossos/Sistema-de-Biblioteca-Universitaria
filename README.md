@@ -56,3 +56,8 @@ Para iniciar a simulação do sistema na sua máquina, certifique-se de ter o Py
 
 ```bash
 python main.py
+```
+## 📌 Gestão do Projeto
+* **Quadro no Trello:** [Acessar Board no Trello](https://trello.com/b/sCRijTjr/sistema-de-biblioteca-universitaria)
+
+https://trello.com/b/sCRijTjr/sistema-de-biblioteca-universitaria
