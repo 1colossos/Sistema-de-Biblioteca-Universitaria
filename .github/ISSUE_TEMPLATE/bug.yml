@@ -1,0 +1,43 @@
+name: Bug
+description: Reportar um erro ou comportamento inesperado no sistema
+title: "[BUG] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição do problema
+      description: Descreva claramente o erro encontrado.
+      placeholder: Explique o que aconteceu e qual era o comportamento esperado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+      description: Informe os passos necessários para reproduzir o problema.
+      placeholder: |
+        1. Acesse...
+        2. Selecione...
+        3. Execute...
+        4. O erro acontece...
+    validations:
+      required: true
+
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Comportamento esperado
+      description: Descreva o que deveria acontecer normalmente.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Adicione mensagens de erro, prints ou outras informações relevantes.
+    validations:
+      required: false
