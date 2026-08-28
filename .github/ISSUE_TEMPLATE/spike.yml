@@ -1,0 +1,30 @@
+name: Spike
+description: Criar uma investigação técnica para reduzir incertezas
+title: "[SPIKE] "
+labels:
+  - spike
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema ou dúvida
+      description: Descreva o problema ou a dúvida que precisa ser investigada.
+      placeholder: Explique o que precisa ser pesquisado ou analisado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo da investigação
+      description: Explique o que se pretende descobrir com este Spike.
+    validations:
+      required: true
+
+  - type: textarea
+    id: resultado
+    attributes:
+      label: Resultado esperado
+      description: Descreva qual resultado ou conhecimento deverá ser obtido ao final da investigação.
+    validations:
+      required: true
