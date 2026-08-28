@@ -1,0 +1,37 @@
+name: User Story
+description: Criar uma nova User Story para o Product Backlog
+title: "[US] "
+labels:
+  - user-story
+body:
+  - type: textarea
+    id: historia
+    attributes:
+      label: User Story
+      description: Descreva a necessidade no formato de User Story.
+      placeholder: |
+        Como [tipo de usuário],
+        quero [funcionalidade],
+        para que [benefício].
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de aceite
+      description: Liste os critérios necessários para considerar a User Story concluída.
+      placeholder: |
+        - [ ] Critério 1
+        - [ ] Critério 2
+        - [ ] Critério 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: observacoes
+    attributes:
+      label: Observações
+      description: Adicione informações complementares, se necessário.
+    validations:
+      required: false
