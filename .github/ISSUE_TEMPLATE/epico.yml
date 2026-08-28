@@ -1,0 +1,31 @@
+name: Épico
+description: Criar um novo épico para agrupar User Stories relacionadas
+title: "[ÉPICO] "
+labels:
+  - epico
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: Descreva o objetivo e o escopo deste épico.
+      placeholder: Descreva as funcionalidades que fazem parte deste épico.
+    validations:
+      required: true
+
+  - type: textarea
+    id: valor
+    attributes:
+      label: Valor para o usuário
+      description: Explique qual valor este épico entrega ao usuário ou ao sistema.
+    validations:
+      required: true
+
+  - type: textarea
+    id: historias
+    attributes:
+      label: User Stories relacionadas
+      description: Liste as User Stories que pertencem a este épico.
+      placeholder: |
+        - US01
+        - US02
