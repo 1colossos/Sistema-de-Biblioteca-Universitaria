@@ -1,0 +1,30 @@
+name: Dívida Técnica
+description: Registrar uma dívida técnica que deverá ser tratada futuramente
+title: "[TECH-DEBT] "
+labels:
+  - tech-debt
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição da dívida técnica
+      description: Descreva o problema técnico identificado.
+      placeholder: Explique o código, estrutura ou processo que precisa ser melhorado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Impacto
+      description: Explique como essa dívida técnica pode afetar o sistema ou o desenvolvimento.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solucao
+    attributes:
+      label: Possível solução
+      description: Descreva uma possível abordagem para resolver a dívida técnica.
+    validations:
+      required: false
