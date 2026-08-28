@@ -1,0 +1,33 @@
+name: Tarefa
+description: Criar uma tarefa técnica relacionada ao desenvolvimento do sistema
+title: "[TASK] "
+labels:
+  - task
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição da tarefa
+      description: Descreva o que precisa ser realizado.
+      placeholder: Explique de forma objetiva a tarefa a ser executada.
+    validations:
+      required: true
+
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Explique o objetivo desta tarefa.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de conclusão
+      description: Liste o que precisa ser atendido para considerar a tarefa concluída.
+      placeholder: |
+        - [ ] Critério 1
+        - [ ] Critério 2
+    validations:
+      required: true
